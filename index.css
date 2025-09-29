@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0, 0)), url(./assets/to\ do\ list\ bg.jpg);
+    background-size: cover;
+    font-family: 'Inter', sans-serif;
+    /* Clean & modern */
+    color: #374151;
+}
+
+:root {
+    --bg-color: #112d5b;
+    --color: #dadcdf;
+}
+
+h2,
+th{
+    color: #112d5b !important;
+}
+
+.list-table table thead tr {
+    font-family: 'Poppins', sans-serif;
+    /* Stylish for headings */
+    color: #1E293B;
+    background-color: none !important;
+}
+#table-body{
+    padding: 10px !important;
+    background-color: none !important;
+    color: var(--color) !important  ;
+}
